@@ -13,3 +13,9 @@ function CharCodeMaker()
     spot.innerHTML = output;
 	document.charCodeAt.output.value = output;
 }
+function Copy_text() {
+	var copyText = document.getElementById("output");
+	copyText.select();
+	copyText.setSelectionRange(0, 999999999999999);
+	document.execCommand("copy");
+  }
