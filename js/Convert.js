@@ -1,5 +1,5 @@
 
-function CharCodeMaker()
+function charCodeMaker()
 { 
 	var input = document.getElementById("input").value; //get input value 
 	//var input = prompt("ENTER YOUR TEXT");
