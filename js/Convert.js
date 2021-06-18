@@ -13,7 +13,7 @@ function charCodeMaker()
     spot.innerHTML = output;
 	document.charCodeAt.output.value = output;
 }
-function Copy_text() {
+function copyText() {
 	var copyText = document.getElementById("output");
 	copyText.select();
 	copyText.setSelectionRange(0, 999999999999999);
